@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Audrey" Version="1.1.3" />
+    <PackageReference Include="Undine.Core" Version="0.0.0.2" />
+  </ItemGroup>
+
+</Project>
