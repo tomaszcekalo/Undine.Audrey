@@ -6,7 +6,7 @@ using Undine.Core;
 
 namespace Undine.Audrey
 {
-    internal class AudreyContainer : EcsContainer
+    public class AudreyContainer : EcsContainer
     {
         private Engine Engine { get; }
         private List<ISystem> Systems { get; }
