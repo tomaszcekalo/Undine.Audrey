@@ -8,7 +8,6 @@
     <RepositoryUrl>https://github.com/tomaszcekalo/Undine.Audrey</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>undine bindings for Audrey ECS </Description>
-    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
