@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undine.Audrey", "Undine.Audrey\Undine.Audrey.csproj", "{5D27AC89-FAF5-4093-A60A-FAF9C2F1A9F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.Audrey.Console", "Undine.Audrey.Console\Undine.Audrey.Console.csproj", "{196BCC9E-E6E7-48E8-9952-04E90743E767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undine.Audrey.Console", "Undine.Audrey.Console\Undine.Audrey.Console.csproj", "{196BCC9E-E6E7-48E8-9952-04E90743E767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.Audrey.Tests", "Undine.Audrey.Tests\Undine.Audrey.Tests.csproj", "{7C681DC9-57BB-43B1-BEB0-A69817F989DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{196BCC9E-E6E7-48E8-9952-04E90743E767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196BCC9E-E6E7-48E8-9952-04E90743E767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196BCC9E-E6E7-48E8-9952-04E90743E767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C681DC9-57BB-43B1-BEB0-A69817F989DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C681DC9-57BB-43B1-BEB0-A69817F989DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C681DC9-57BB-43B1-BEB0-A69817F989DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C681DC9-57BB-43B1-BEB0-A69817F989DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

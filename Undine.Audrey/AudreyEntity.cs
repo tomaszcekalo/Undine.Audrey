@@ -2,7 +2,7 @@
 
 namespace Undine.Audrey
 {
-    internal class AudreyEntity : Core.IUnifiedEntity
+    public class AudreyEntity : Core.IUnifiedEntity
     {
         public Entity Entity { get; }
 
