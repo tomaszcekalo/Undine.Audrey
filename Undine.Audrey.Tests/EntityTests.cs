@@ -38,6 +38,20 @@ namespace Undine.Audrey.Tests
             container.Run();
             ref var component = ref entity.GetComponent<AComponent>();
             Assert.IsNotNull(component);
-        }//
+        }
+
+        [TestMethod]
+        public void ComponentCanBeRemoved()
+        {
+            var container = new AudreyContainer();
+            var mock = Substitute.For<UnifiedSystem<AComponent>>();
+            container.AddSystem(mock);
+            container.Init();
+            var entity = (AudreyEntity)container.CreateNewEntity();
+            entity.AddComponent(new AComponent());
+            container.Run();
+            ref var component = ref entity.GetComponent<AComponent>();
+            entity.RemoveComponent<AComponent>();
+        }
     }
 }

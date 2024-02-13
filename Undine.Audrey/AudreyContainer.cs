@@ -54,6 +54,14 @@ namespace Undine.Audrey
             Entity entity = Engine.CreateEntity();
             return new AudreyEntity(entity);
         }
+        public override void DeleteEntity(IUnifiedEntity entity)
+        {
+            var entityToRemove = entity as AudreyEntity;
+            if(entityToRemove != null)
+            {
+                Engine.DestroyEntity(entityToRemove.Entity);
+            }
+        }
 
         public override ISystem GetSystem<A>(UnifiedSystem<A> system)
         {

@@ -23,5 +23,9 @@ namespace Undine.Audrey
         {
             return ref this.Entity.GetComponent<AudreyComponentWrapper<A>>().Component;
         }
+        public void RemoveComponent<A>() where A : struct
+        {
+            this.Entity.RemoveComponent<AudreyComponentWrapper<A>>();
+        }
     }
 }
